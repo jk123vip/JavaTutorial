@@ -18,29 +18,29 @@ public class DateDemo {
 
         // 使用printf格式化日期
         // 初始化 Date 对象
-        Date date = new Date();
+        Date date1 = new Date();
         // 使用toString()显示日期和时间
-        String str = String.format("Current Date/Time : %tc, date);
+        String str = String.format("Current Date/Time : %tc", date1);
         System.out.printf(str);
 
-        Date date = new Date();
+        Date date2 = new Date();
         System.out.printf("%1$s %2$tB %2$td, %2$tY",
-                          "Due date:", date);
+                          "Due date:", date2);
 
-        Date date = new Date();
+        Date date3 = new Date();
         System.out.printf("%s %tB %<te, %<tY",
-                          "Due date:", date);
+                          "Due date:", date3);
 
         // 解析字符串为时间
-        SimpleDateFormat ft = new SimpleDateFormat("yyyy-MM-dd");
+        SimpleDateFormat ft1 = new SimpleDateFormat("yyyy-MM-dd");
         String input = args.length == 0 ? "1818-11-11" : args[0];
         System.out.print(input + " Parses as ");
         Date t;
         try {
-            t = ft.parse(input);
+            t = ft1.parse(input);
             System.out.println(t);
         } catch (ParseException e) {
-            System.out.println("Unparseable using " + ft);
+            System.out.println("Unparseable using " + ft1);
         }
 
     }
