@@ -5,7 +5,7 @@ Java Tutorial from RUNOOB.COM
 
 目录基本按照原网站既定目录排列。
 
-# 1. Java教程
+# Java教程
 17. DateAndTime 日期和时间
 18. RegularExpression 正则表达式
 19. Method 方法
