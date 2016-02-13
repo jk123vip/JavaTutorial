@@ -1,4 +1,4 @@
-/** 多态 */
+/** 抽象类 */
 
 public class Employee {
 
