@@ -9,7 +9,7 @@ public class Main1 {
 
     public static void main(String[] args) {
         try {
-            File file = new File("/home/jk/myfile.txt");
+            File file = new File("/home/jk/java.txt");
             if (file.createNewFile()) {
                 System.out.println("文件创建成功");
             } else {
